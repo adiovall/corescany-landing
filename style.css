@@ -120,16 +120,18 @@ html, body {
 .countdown-big {
   font-size: clamp(3rem, 8vw, 5rem);
   font-weight: 700;
-  background: linear-gradient(90deg, #00e1ff, #7f00ff, #00e1ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  background-size: 200% 100%;
-  animation: gradientShift 3s ease infinite;
+  color: #bfefff; /* soft cyan tone */
   letter-spacing: 3px;
   margin: 10px 0;
-  text-shadow: 0 0 20px rgba(0,225,255,0.4);
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.25);
+  transition: color 0.3s ease;
 }
+
+.countdown-big:hover {
+  color: #a8d8ff;
+  text-shadow: 0 0 15px rgba(0, 210, 255, 0.4);
+}
+
 
 .launch-date {
   font-size: 1.2rem;
