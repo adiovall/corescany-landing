@@ -326,3 +326,12 @@ footer span { color: #7ccfff; font-weight: 600; }
   transform: scale(1.05);
   background: linear-gradient(90deg, #007bff, #0044cc);
 }
+
+/* message handle */
+.form-message {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #9fe8ff;
+  transition: opacity 0.3s ease;
+}
+

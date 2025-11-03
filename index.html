@@ -56,10 +56,12 @@
     </div>
 
     <!-- ✅ WAITLIST CARD -->
-    <form name="waitlist" method="POST" data-netlify="true" class="waitlist-form">
-      <input type="email" name="email" placeholder="Enter your email" required>
-      <button type="submit">Join Waitlist</button>
+    <form name="waitlist" method="POST" data-netlify="true"    onsubmit="handleSubmit(event)" class="waitlist-form">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Join Waitlist</button>
+        <p id="form-message" class="form-message"></p>
     </form>
+
 
     <!-- ROADMAP -->
     <section class="journey">
