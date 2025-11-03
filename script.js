@@ -57,7 +57,7 @@ function handleSubmit(event) {
     body: new URLSearchParams(formData).toString()
   })
   .then(() => {
-    document.getElementById("form-message").textContent = "✅ You’re on the waitlist!";
+    document.getElementById("form-message").textContent = "✅ congratulations. You’re now the waitlist!";
     form.reset();
   })
   .catch(() => {
